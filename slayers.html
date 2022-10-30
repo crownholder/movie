@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <form id="form2">
+            <input type="button" value="Back" onclick="history.back()">
+            <input type="button" value="Forward" onclick="history.forward()">
+        </form>
+    </head>
+
+    <body>
+
+
+          <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
+        <style>
+            form{
+                color: black;
+                background-color:white(247, 240, 240);
+            }
+            a:hover{
+                color: white;
+            }
+        </style>
+
+
+
+        <div>
+        <nav>
+            <!-- Secondary Navigation inside <header> -->
+            <ul id="navigation">
+                <a id="buttonnav">MY ACCOUNT</a>
+                <a id="buttonnav">HOME<a>
+                <a id="buttonnav">ON DEMAND<a>
+            </ul>
+        </nav>
+
+        <style>
+            h1{
+                color:rgb(255, 217, 0);
+                background-color: rgb(26, 69, 211);
+                text-align: center;
+                margin-top: 4px;
+                margin-bottom: 1px;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding-top:5px;
+                padding-bottom:4px;
+                border-color: black;
+                border-width: 5px;
+                text-shadow: 5px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: 1000;
+            }
+
+            p{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: black;
+                margin-left: 80px;
+            }
+
+        </style>
+        </div>
+
+
+        <div>
+        <title>TikMovie</title>
+        </div>
+    </head>
+
+        <div>
+            <h1>SLAYERS</h1>
+        </div>
+        <div id="mainpage">
+            <img id="slayerphoto" src="/images/slayers.bmp" >
+        </div>
+        <div>
+            <p>Vampire slayer Elliot Jones made it his life's mission to 
+                take revenge on the bloodsuckers who killed his teenage daughter. <br>
+                After years of tracking them, he's finally reached their secret 
+                and hidden base. However, to get to them, he'll need help from a <br>
+                motley crew of social media superstars who've been invited to party at a 
+                compound that's also a lair for ancient vampires.</p>
+        </div>
+
+    </body>
+</html>

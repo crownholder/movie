@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\Git\mingw64\node.exe C:\Users\KEESN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\KEESN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C:\Users\KEESN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\KEESN\Downloads\curl-7.81.0_1-win64-mingw\curl-7.81.0-win64-mingw;c:\Program Files\Amazon\AWSCLIV2\aws.exe;c:\Program Files\flutter\bin;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Go\bin;C:\Program Files\Git\mingw64\;C:\Program Files\Amazon\AWSCLIV2\aws.exe;C:\Users\KEESN\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\KEESN\AppData\Local\Programs\Python\Python310\;C:\Users\KEESN\.amplify\bin;C:\Users\KEESN\.local\share\solana\install\active_release\bin;C:\Users\KEESN\anaconda3;C:\Users\KEESN\anaconda3\Library\mingw-w64\bin;C:\Users\KEESN\anaconda3\Library\usr\bin;C:\Users\KEESN\anaconda3\Library\bin;C:\Users\KEESN\anaconda3\Scripts;C:\Users\KEESN\.cargo\bin;C:\Program Files\nodejs;C:\Users\KEESN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;C:\Users\KEESN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KEESN\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts\aws.exe;C:\Users\KEESN\.dotnet\tools;C:\Program Files (x86)\Brackets\;C:\Users\KEESN\create_blockchain\;C:\Users\KEESN\AppData\Local\GitHubDesktop\bin;C:\Users\KEESN\AppData\Roaming\netlify\Config\helper\bin;C:\Users\KEESN\AppData\Local\Microsoft\WindowsApps;C:\Users\KEESN\go\bin;C:\Users\KEESN\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\KEESN\Desktop\webpage_project\node_modules\bootstrap\dist\css\bootstrap.min.css'
+
+npm manifest: 
+  {
+      "name": "confusion",
+      "version": "1.0.0",
+      "description": "This is a website for Ristorante Con Fusion",
+      "main": "index.html",
+      "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+      },
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "lite-server": "^2.3.0"
+      },
+      "dependencies": {
+        "aws": "0.0.3-2",
+        "bootstrap": "^4.6.1",
+        "bootstrap-social": "^5.1.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.6.0",
+        "netlify-cli": "^9.8.4",
+        "popper.js": "^1.12.9",
+        "@astrajs/collections": "^0.3.4",
+        "nodemon": "^2.0.20",
+        "dotenv": "^16.0.3"
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

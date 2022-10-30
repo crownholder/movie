@@ -1,0 +1,29 @@
+{
+    "name": "confusion",
+    "version": "1.0.0",
+    "description": "This is a website for Ristorante Con Fusion",
+    "main": "index.html",
+    "scripts": {
+      "start": "npm run lite",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lite": "lite-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "lite-server": "^2.3.0"
+    },
+    "dependencies": {
+      "aws": "0.0.3-2",
+      "bootstrap": "^4.6.1",
+      "bootstrap-social": "^5.1.1",
+      "font-awesome": "^4.7.0",
+      "jquery": "^3.6.0",
+      "netlify-cli": "^9.8.4",
+      "popper.js": "^1.12.9",
+      "@astrajs/collections": "^0.3.4",
+      "nodemon": "^2.0.20",
+      "dotenv": "^16.0.3"
+    }
+  }
+  
